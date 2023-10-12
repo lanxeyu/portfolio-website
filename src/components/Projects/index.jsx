@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import ProjectImage from '../ProjectImage';
+import './style.css'
 
 function Projects() {
   const [index, setIndex] = useState(0);
@@ -10,23 +10,25 @@ function Projects() {
   };
 
   return (
-    <Carousel activeIndex={index} onSelect={handleSelect}>
+    <Carousel className="carousel" activeIndex={index} onSelect={handleSelect}>
       <Carousel.Item>
-        <ProjectImage text="First slide" />
+        <img src='/test.png' className='carousel-image'></img>
         <Carousel.Caption>
           <h3>First slide label</h3>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption>
       </Carousel.Item>
+
       <Carousel.Item>
-        <ProjectImage text="Second slide" />
+      <img src='/test.png' className='carousel-image'></img>
         <Carousel.Caption>
           <h3>Second slide label</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </Carousel.Caption>
       </Carousel.Item>
+
       <Carousel.Item>
-        <ProjectImage text="Third slide" />
+        <img src='/test.png' className='carousel-image'></img>
         <Carousel.Caption>
           <h3>Third slide label</h3>
           <p>
@@ -34,6 +36,7 @@ function Projects() {
           </p>
         </Carousel.Caption>
       </Carousel.Item>
+
     </Carousel>
   );
 }

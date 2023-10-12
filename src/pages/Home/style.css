@@ -1,0 +1,15 @@
+.main-card-container {
+    background-color: aquamarine;
+}
+
+.projects-container {
+    background-color: blanchedalmond;
+}
+
+.full-screen-component {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+  
