@@ -9,6 +9,7 @@ function App() {
   return (
     <Routes>
       <Route index element={<Pages.Home />}></Route>
+
     
     </Routes>
   )
