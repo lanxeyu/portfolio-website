@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
-import './App.css'
 import * as Pages from './pages';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
