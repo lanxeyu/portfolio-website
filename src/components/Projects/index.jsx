@@ -28,7 +28,7 @@ function Projects() {
         <img src='/bookwiz-preview.png' className='carousel-image'></img>
         <Carousel.Caption className="carousel-caption">
           <h3>BookWiz</h3>
-          <p>A library management tool that features admin access to specific actions, and allows users to borrow books. Information is fetched from a Restful API built with Express, Node.js, and PostgreSQL.</p>
+          <p>A library management tool that features admin authorization for some actions, and allows users to borrow and return books. Information is fetched from a Restful API built with Express, Node.js, and PostgreSQL.</p>
 
           <ButtonGroup className="button-group">
             <Button variant="primary" href="https://bookwiz.onrender.com/" target="_blank">Deployed Website</Button>

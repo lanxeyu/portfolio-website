@@ -3,6 +3,7 @@
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
     background-image: url('/bg_plain.png');
+    background-position: center;
 }
 
 /* .main-card-container {
@@ -14,9 +15,9 @@
 } */
 
 .full-screen-component {
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
     scroll-snap-align: start;
 }
