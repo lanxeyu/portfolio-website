@@ -1,5 +1,7 @@
 import Carousel from 'react-bootstrap/Carousel';
 import { Button, ButtonGroup } from 'react-bootstrap';
+import Image from 'react-bootstrap/Image';
+
 import './style.css'
 
 
@@ -9,7 +11,7 @@ function Projects() {
     <Carousel className="carousel">
 
       <Carousel.Item className='carousel-item'>
-        <img src='/vanguardians-preview.png' className='carousel-image'></img>
+        <Image src='/vanguardians-preview.png' className='carousel-image' rounded/>
         <Carousel.Caption className="carousel-caption">
           <h3>VanGuardians</h3>
           <p>Full-stack web app with party-management survival game featuring up to 6 controllable characters. Built with JavaScript, Python, HTML, CSS, Vite, React, Flask, SQLAlchemy, PostgreSQL.</p>
@@ -25,7 +27,7 @@ function Projects() {
       
       
       <Carousel.Item>
-        <img src='/bookwiz-preview.png' className='carousel-image'></img>
+        <Image src='/bookwiz-preview.png' className='carousel-image' rounded/>
         <Carousel.Caption className="carousel-caption">
           <h3>BookWiz</h3>
           <p>A library management tool that features admin authorization for some actions, and allows users to borrow and return books. Information is fetched from a Restful API built with Express, Node.js, and PostgreSQL.</p>
@@ -41,10 +43,10 @@ function Projects() {
 
       
       <Carousel.Item>
-      <img src='/siege-of-westhold-preview.png' className='carousel-image'></img>
+        <Image src='/siege-of-westhold-preview.png' className='carousel-image' rounded/>
         <Carousel.Caption className="carousel-caption">
           <h3>Siege of Westhold</h3>
-          <p>Python game project that blends tower defence, shoot 'em up, and survival mechanics. Roguelike elements and enemy variants under development.</p>
+          <p>Python game project that blends tower defence, shoot em up, and survival mechanics. Roguelike elements and enemy variants under development.</p>
 
           <ButtonGroup className="button-group">
             <Button variant="primary" href="https://github.com/lanxeyu/Siege-of-Westhold" target="_blank">Repository</Button>

@@ -17,12 +17,12 @@ const MainCard = () => {
           <Image src="/expog.png" className="profile-picture" roundedCircle />
         </Col>
       </Row>
-    </Container>
+      </Container>
 
       <Card.Body>
         <Card.Title>Lanxe Yu</Card.Title>
         <Card.Text>
-          Software Developer
+          Full-Stack Developer
         </Card.Text>
         <Button className="scroll-to-projects-button button" variant="primary">Projects</Button>
       </Card.Body>

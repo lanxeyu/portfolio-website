@@ -2,3 +2,9 @@
     width: 30vw;
 }
 
+.profile-picture {
+    height: 100px;
+    width: 100px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}

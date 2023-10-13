@@ -1,13 +1,15 @@
 .carousel-item {
     height: 80vh;
-    width: 80vw;
     background-image: url(/bg_plain.png);
     background-position: center;
 }
 
 .carousel-image {
-    width: 80vw;
-    max-width: 80vw;
+    width: 70vw;
+    border-radius: 2px;
+    border-color: blueviolet;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .carousel-caption {
