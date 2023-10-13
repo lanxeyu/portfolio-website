@@ -1,15 +1,22 @@
-.main-card-container {
+.parent-container {
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    background-image: url('/bg_plain.png');
+}
+
+/* .main-card-container {
     background-color: aquamarine;
 }
 
 .projects-container {
     background-color: blanchedalmond;
-}
+} */
 
 .full-screen-component {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
+    scroll-snap-align: start;
 }
-  

@@ -3,14 +3,14 @@ import Card from 'react-bootstrap/Card';
 
 const MainCard = () => {
   return (
-    <Card style={{ width: '18rem' }} className="text-center">
+    <Card style={{ width: '30%' }} className="text-center">
       <Card.Header></Card.Header>
       <Card.Body>
         <Card.Title>Lanxe Yu</Card.Title>
         <Card.Text>
           Software Developer
         </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
+        <Button className="scroll-to-projects-button button" variant="primary">Projects</Button>
       </Card.Body>
       <Card.Footer className="text-muted"></Card.Footer>
     </Card>

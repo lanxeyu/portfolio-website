@@ -1,9 +1,20 @@
-
+.carousel-item {
+    height: 80vh;
+    width: 80vw;
+    background-image: url(/bg_plain.png);
+}
 
 .carousel-image {
-    max-height: 80vh;
-    width: auto;
-    display: block;
-    margin: 0 auto;
+    width: 80vw;
+    max-width: 80vw;
 }
-  
+
+.carousel-caption {
+    padding-left: 5vw;
+    padding-right: 5vw;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.button-group {
+    padding-bottom: 20px;
+}

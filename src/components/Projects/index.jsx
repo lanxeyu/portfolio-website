@@ -1,39 +1,55 @@
-import { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
+import { Button, ButtonGroup } from 'react-bootstrap';
 import './style.css'
 
-function Projects() {
-  const [index, setIndex] = useState(0);
 
-  const handleSelect = (selectedIndex) => {
-    setIndex(selectedIndex);
-  };
+function Projects() {
 
   return (
-    <Carousel className="carousel" activeIndex={index} onSelect={handleSelect}>
+    <Carousel className="carousel">
+
+      <Carousel.Item className='carousel-item'>
+        <img src='/vanguardians-preview.png' className='carousel-image'></img>
+        <Carousel.Caption className="carousel-caption">
+          <h3>VanGuardians</h3>
+          <p>Full-stack web app with party-management survival game featuring up to 6 controllable characters. Built with JavaScript, Python, HTML, CSS, Vite, React, Flask, SQLAlchemy, PostgreSQL.</p>
+
+          <ButtonGroup className="button-group">
+            <Button variant="primary" href="https://vanguardians-lfa.netlify.app/" target="_blank">Deployed Website</Button>
+            <Button variant="secondary" href="https://github.com/lanxeyu/vanguardians-client" target="_blank">Frontend Repository</Button>
+            <Button variant="secondary" href="https://github.com/aslaterm32/vanguardians-server" target="_blank">Backend Repository</Button>
+          </ButtonGroup>
+
+        </Carousel.Caption>
+      </Carousel.Item>
+      
+      
       <Carousel.Item>
-        <img src='/test.png' className='carousel-image'></img>
-        <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        <img src='/bookwiz-preview.png' className='carousel-image'></img>
+        <Carousel.Caption className="carousel-caption">
+          <h3>BookWiz</h3>
+          <p>A library management tool that features admin access to specific actions, and allows users to borrow books. Information is fetched from a Restful API built with Express, Node.js, and PostgreSQL.</p>
+
+          <ButtonGroup className="button-group">
+            <Button variant="primary" href="https://bookwiz.onrender.com/" target="_blank">Deployed Website</Button>
+            <Button variant="secondary" href="https://github.com/ollie-byrne99/Lap_2_Client_Side" target="_blank">Frontend Repository</Button>
+            <Button variant="secondary" href="https://github.com/Chelsea-Mogwo/book-wiz-backend" target="_blank">Backend Repository</Button>
+          </ButtonGroup>
+    
         </Carousel.Caption>
       </Carousel.Item>
 
+      
       <Carousel.Item>
-      <img src='/test.png' className='carousel-image'></img>
-        <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
+      <img src='/siege-of-westhold-preview.png' className='carousel-image'></img>
+        <Carousel.Caption className="carousel-caption">
+          <h3>Siege of Westhold</h3>
+          <p>Python game project that blends tower defence, shoot 'em up, and survival mechanics. Roguelike elements and enemy variants under development.</p>
 
-      <Carousel.Item>
-        <img src='/test.png' className='carousel-image'></img>
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
+          <ButtonGroup className="button-group">
+            <Button variant="primary" href="https://github.com/lanxeyu/Siege-of-Westhold" target="_blank">Repository</Button>
+          </ButtonGroup>
+
         </Carousel.Caption>
       </Carousel.Item>
 
