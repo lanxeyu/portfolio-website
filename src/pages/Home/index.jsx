@@ -9,7 +9,7 @@ const Home = () => {
           <MainCard></MainCard>
         </div>
 
-        <div className="projects-container full-screen-component">
+        <div className="projects-container full-screen-component" id="projects-container">
           <Projects></Projects>
         </div>
       </div>

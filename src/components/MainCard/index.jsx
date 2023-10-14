@@ -5,7 +5,14 @@ import Image from 'react-bootstrap/Image';
 import Badge from 'react-bootstrap/Badge';
 import './style.css'
 
-const MainCard = () => {
+const MainCard = () => { 
+  const handleScrollToProjects = () => {
+    const projectsContainer = document.getElementById('projects-container');
+    if (projectsContainer) {
+      projectsContainer.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <Card className="text-center">
 
@@ -18,31 +25,31 @@ const MainCard = () => {
         <Card.Text>
           Full-Stack Developer
         </Card.Text>
-        <Button className="scroll-to-projects-button button" variant="primary">Projects</Button>
+        <Button className="scroll-to-projects-btn" variant="primary" onClick={handleScrollToProjects}>Projects</Button>
       </Card.Body>
 
       <Card.Footer>
-          <Badge className="badge" bg="dark">JavaScript</Badge>
-          <Badge className="badge" bg="dark">Python</Badge>
-          <Badge className="badge" bg="dark">C#</Badge>
-          <Badge className="badge" bg="dark">HTML</Badge>
-          <Badge className="badge" bg="dark">CSS</Badge>
-          <Badge className="badge" bg="dark">React</Badge>
-          <Badge className="badge" bg="dark">Vite</Badge>
-          <Badge className="badge" bg="dark">Bootstrap</Badge>
-          <Badge className="badge" bg="dark">React-Bootstrap</Badge>
-          <Badge className="badge" bg="dark">Express</Badge>
-          <Badge className="badge" bg="dark">Node.js</Badge>
-          <Badge className="badge" bg="dark">Flask</Badge>
-          <Badge className="badge" bg="dark">PostgreSQL</Badge>
-          <Badge className="badge" bg="dark">MongoDB</Badge>
-          <Badge className="badge" bg="dark">SQLite</Badge>
-          <Badge className="badge" bg="dark">Git</Badge>
-          <Badge className="badge" bg="dark">Docker</Badge>
-          <Badge className="badge" bg="dark">C#</Badge>
-          <Badge className="badge" bg="dark">Jest</Badge>
-          <Badge className="badge" bg="dark">Vitest</Badge>
-          <Badge className="badge" bg="dark">Pytest</Badge>
+          <Badge pill className="badge" bg="dark">JavaScript</Badge>
+          <Badge pill className="badge" bg="dark">Python</Badge>
+          <Badge pill className="badge" bg="dark">C#</Badge>
+          <Badge pill className="badge" bg="dark">HTML</Badge>
+          <Badge pill className="badge" bg="dark">CSS</Badge>
+          <Badge pill className="badge" bg="dark">React</Badge>
+          <Badge pill className="badge" bg="dark">Vite</Badge>
+          <Badge pill className="badge" bg="dark">Bootstrap</Badge>
+          <Badge pill className="badge" bg="dark">React-Bootstrap</Badge>
+          <Badge pill className="badge" bg="dark">Express</Badge>
+          <Badge pill className="badge" bg="dark">Node.js</Badge>
+          <Badge pill className="badge" bg="dark">Flask</Badge>
+          <Badge pill className="badge" bg="dark">PostgreSQL</Badge>
+          <Badge pill className="badge" bg="dark">MongoDB</Badge>
+          <Badge pill className="badge" bg="dark">SQLite</Badge>
+          <Badge pill className="badge" bg="dark">Git</Badge>
+          <Badge pill className="badge" bg="dark">Docker</Badge>
+          <Badge pill className="badge" bg="dark">C#</Badge>
+          <Badge pill className="badge" bg="dark">Jest</Badge>
+          <Badge pill className="badge" bg="dark">Vitest</Badge>
+          <Badge pill className="badge" bg="dark">Pytest</Badge>
       </Card.Footer>
 
     </Card>

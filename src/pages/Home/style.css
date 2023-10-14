@@ -1,3 +1,7 @@
+html, body {
+    scroll-behavior: smooth;
+}
+
 .parent-container {
     height: 100vh;
     scroll-snap-type: y mandatory;
