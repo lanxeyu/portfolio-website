@@ -1,14 +1,12 @@
 import Carousel from 'react-bootstrap/Carousel';
 import { Button, ButtonGroup } from 'react-bootstrap';
 import Image from 'react-bootstrap/Image';
-
 import './style.css'
 
-
 function Projects() {
-
   return (
     <Carousel className="carousel">
+
 
       <Carousel.Item className='carousel-item'>
         <Image src='/vanguardians-preview.png' className='carousel-image' rounded/>
@@ -54,6 +52,7 @@ function Projects() {
 
         </Carousel.Caption>
       </Carousel.Item>
+
 
     </Carousel>
   );
