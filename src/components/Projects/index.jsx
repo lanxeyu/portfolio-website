@@ -31,7 +31,7 @@ function Projects() {
           <p>A library management tool that features admin authorization for some actions, and allows users to borrow and return books. Information is fetched from a RESTful API built with Express, Node.js, and PostgreSQL.</p>
 
           <ButtonGroup className="button-group">
-            <Button variant="warning" href="https://bookwiz.onrender.com/" target="_blank">Deployed Website</Button>
+            <Button variant="warning" href="https://bookwiz.netlify.app/" target="_blank">Deployed Website</Button>
             <Button variant="outline-warning" href="https://github.com/ollie-byrne99/Lap_2_Client_Side" target="_blank">Frontend Repository</Button>
             <Button variant="outline-warning" href="https://github.com/Chelsea-Mogwo/book-wiz-backend" target="_blank">Backend Repository</Button>
           </ButtonGroup>
