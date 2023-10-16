@@ -17,15 +17,15 @@ const MainCard = () => {
     <Card className="text-center">
 
       <Container>
-          <Image src="/expog.png" className="profile-picture" roundedCircle />
+          <Image src="/lanxe-yu.png" className="profile-picture" roundedCircle />
       </Container>
 
       <Card.Body>
         <Card.Title>Lanxe Yu</Card.Title>
-        <Card.Text>
+        <Card.Text className='job-title'>
           Full-Stack Developer
         </Card.Text>
-        <Button className="scroll-to-projects-btn" variant="primary" onClick={handleScrollToProjects}>Projects</Button>
+        <Button className="scroll-to-projects-btn" variant="warning" onClick={handleScrollToProjects}>Projects</Button>
       </Card.Body>
 
       <Card.Footer>

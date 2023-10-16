@@ -6,17 +6,14 @@ html, body {
     height: 100vh;
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
-    background-image: url('/bg_plain.png');
-    background-position: center;
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
 }
 
-/* .main-card-container {
-    background-color: aquamarine;
+.links-btn{
+    position: absolute;
+    right: 20px;
 }
-
-.projects-container {
-    background-color: blanchedalmond;
-} */
 
 .full-screen-component {
     height: 100vh;
@@ -24,4 +21,11 @@ html, body {
     align-items: center;
     justify-content: center;
     scroll-snap-align: start;
+}
+
+.main-card-container {
+    background-image: url('/bg-lines.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
