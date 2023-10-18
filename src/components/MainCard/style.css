@@ -6,17 +6,17 @@ div.card {
 }
 
 div.card-title {
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 700;
 }
 
 .job-title {
-    font-size: 27.5px;
+    font-size: 23px;
     font-weight: 500;
 }
 
 div.card-footer {
-    font-size: 22px;
+    font-size: 18px;
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 30px;
@@ -40,6 +40,6 @@ div.card-footer {
 button.btn {
     margin-top: 20px;
     margin-bottom: 20px;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 500;
 }
