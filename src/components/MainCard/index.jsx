@@ -46,7 +46,6 @@ const MainCard = () => {
           <Badge pill className="badge" bg="dark">SQLite</Badge>
           <Badge pill className="badge" bg="dark">Git</Badge>
           <Badge pill className="badge" bg="dark">Docker</Badge>
-          <Badge pill className="badge" bg="dark">C#</Badge>
           <Badge pill className="badge" bg="dark">Jest</Badge>
           <Badge pill className="badge" bg="dark">Vitest</Badge>
           <Badge pill className="badge" bg="dark">Pytest</Badge>
