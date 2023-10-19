@@ -29,8 +29,9 @@ const MainCard = () => {
       </Card.Body>
 
       <Card.Footer>
-          <Badge pill className="badge" bg="dark">JavaScript</Badge>
           <Badge pill className="badge" bg="dark">Python</Badge>
+          <Badge pill className="badge" bg="dark">JavaScript</Badge>
+          <Badge pill className="badge" bg="dark">TypeScript</Badge>
           <Badge pill className="badge" bg="dark">C#</Badge>
           <Badge pill className="badge" bg="dark">HTML</Badge>
           <Badge pill className="badge" bg="dark">CSS</Badge>
