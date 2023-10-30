@@ -11,7 +11,7 @@ function Projects() {
         <Image src='/pizzashop-preview.png' className='carousel-image' rounded/>
         <Carousel.Caption className="carousel-caption">
           <h3>Pizza Shop</h3>
-          <p>Pizza ordering app with responsive elements, customizable pizzas, data handling across components, push notifications, order tracking, & sales recording in a database. React, Node.js, Express, PostgreSQL, RESTful API, Web-Push, Service Worker</p>
+          <p>Pizza ordering app with customizable pizzas, data handling, push notifications, order tracking, & sales records. Built with React, Node.js, Express, PostgreSQL, RESTful API, Web-Push, Service Worker.</p>
 
           <div className="project-link-btn-group">
             <Button variant="warning" href="https://pizzashop-lanxeyu.netlify.app/" target="_blank">Website</Button>
