@@ -7,6 +7,21 @@ function Projects() {
   return (
     <Carousel className="carousel">
 
+      <Carousel.Item>
+        <Image src='/pizzashop-preview.png' className='carousel-image' rounded/>
+        <Carousel.Caption className="carousel-caption">
+          <h3>Pizza Shop</h3>
+          <p>Pizza ordering app with responsive elements, customizable pizzas, data handling across components, push notifications, order tracking, & sales recording in a database. React, Node.js, Express, PostgreSQL, RESTful API, Web-Push, Service Worker</p>
+
+          <div className="project-link-btn-group">
+            <Button variant="warning" href="https://pizzashop-lanxeyu.netlify.app/" target="_blank">Website</Button>
+            <Button variant="outline-warning" href="https://github.com/lanxeyu/pizza-shop" target="_blank">Frontend Repo</Button>
+            <Button variant="outline-warning" href="https://github.com/lanxeyu/pizza-shop-server" target="_blank">Backend Repo</Button>
+          </div>
+    
+        </Carousel.Caption>
+      </Carousel.Item>
+
 
       <Carousel.Item className='carousel-item'>
         <Image src='/vanguardians-preview.png' className='carousel-image' rounded/>
@@ -24,20 +39,7 @@ function Projects() {
       </Carousel.Item>
       
       
-      <Carousel.Item>
-        <Image src='/bookwiz-preview.png' className='carousel-image' rounded/>
-        <Carousel.Caption className="carousel-caption">
-          <h3>BookWiz</h3>
-          <p>A library management tool that features admin authorization for some actions, and allows users to borrow and return books. Information is fetched from a RESTful API built with Express, Node.js, and PostgreSQL.</p>
 
-          <div className="project-link-btn-group">
-            <Button variant="warning" href="https://bookwiz.netlify.app/" target="_blank">Website</Button>
-            <Button variant="outline-warning" href="https://github.com/lanxeyu/bookwiz-client" target="_blank">Frontend Repo</Button>
-            <Button variant="outline-warning" href="https://github.com/Chelsea-Mogwo/book-wiz-backend" target="_blank">Backend Repo</Button>
-          </div>
-    
-        </Carousel.Caption>
-      </Carousel.Item>
 
       
       <Carousel.Item>
