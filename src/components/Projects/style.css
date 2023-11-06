@@ -1,12 +1,16 @@
+.carousel {
+    width: 100vw;
+}
+
 .carousel-item {
-    height: 80vh;
+    height: 70vh;
     background-position: center;
 }
 
 .carousel-image {
-    width: 70vw;
     margin-top: 20px;
     margin-bottom: 20px;
+    width:100vw;
 }
 
 .carousel-caption {
